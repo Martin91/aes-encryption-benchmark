@@ -1,0 +1,8 @@
+goos: darwin
+goarch: amd64
+pkg: aes-encryption
+cpu: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+BenchmarkEncryptAES_WholeContent-12    	 1030942	      1122 ns/op	    3584 B/op	       8 allocs/op
+BenchmarkEncryptAES_Separate-12        	  274132	      4703 ns/op	    8640 B/op	      80 allocs/op
+PASS
+ok  	aes-encryption	3.566s
